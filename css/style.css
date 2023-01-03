@@ -542,9 +542,6 @@ margin-right: 0;
     }
   
     /* стилізація футера */
-.container.footer {
-  padding-top: 60px;
-}
 
 .container .footer {
   margin-right: 0;
@@ -595,6 +592,7 @@ color: var(--accent-color);
 
 /* фон для футера */
 .general{
+  padding-top: 60px;
   padding-bottom: 60px;
   background-color: var( --footer-background-color);
 }
@@ -652,6 +650,9 @@ margin-left: 70px;
       color: #FFFFFF;
       margin-bottom: 20px;
 }
+.general-form-footer{
+  margin-left: auto;
+}
 .btn-form-footer{
   width: 200px;
   height: 50px;
@@ -670,8 +671,8 @@ border-radius: 4px;
   margin-left: 12px;
 }
 .form-input {
-  padding-right: 295px;
-      padding-top: 15px;
+  width: 358px;
+        padding-top: 15px;
       padding-bottom: 15px;
         padding-left: 16px;
         color: rgba(255, 255, 255, 0.6);
