@@ -555,17 +555,18 @@ display: flex;
    padding-top: 0;
    padding-bottom: 0;
   }
-.footer .footer-text{
-  margin-top: 20px;
-  margin-bottom: 9px;
+.footer-text{
+  font-size: 14px;
+    /* line-height: 1.71; 
+    letter-spacing: 0.03em; */
+      margin-top: 20px;
+    margin-bottom: 9px;
+  color: var(--first-background);
+ 
 }
 .footer {
-  font-style: normal;
-  line-height: 1.71;
+     line-height: 1.71;
 letter-spacing: 0.03em;
-}
-.footer-text {
-color: var(--first-background);
 }
 /* ефект ховера і фокусу для імейлу */
 .footer-mail {
@@ -578,10 +579,12 @@ color: var(--accent-color); ;
 }
 
 .footer .item-mail {
+  font-size: 14px;
 margin-bottom: 9px;
 }
 /* ефект фокусу і ховера для телефону */
 .footer-tel {
+    font-size: 14px;
   color: var(--footer-main-color-text);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -620,6 +623,9 @@ margin-left: 70px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   }
+ .social-item-footer:last-child{
+  margin-right: 0;
+ } 
   
 .social-link-footer:hover,
 .social-link-footer:focus{
