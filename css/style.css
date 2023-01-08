@@ -398,7 +398,7 @@ padding: 40px;
   display: inline-block;
   border: 2px solid #212121;
   border-radius: 4px;
-
+  margin-right: 8px;
 }
 .input-checkbox:checked + .icon-check-form{
   border-color: #2196F3;
