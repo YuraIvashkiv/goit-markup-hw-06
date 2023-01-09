@@ -335,7 +335,7 @@ padding: 40px;
 }
 .icon-form{
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 12px;
   display: inline-block;
   transform: translateY(-50%);
@@ -345,7 +345,11 @@ padding: 40px;
   margin-right: auto;
   margin-bottom: 5px;
 }
+.input-svg{
+  position: relative;
+    }
 .input-style{
+  width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -394,24 +398,18 @@ padding: 40px;
 .icon-check-form{
   width: 15px;
   height: 15px;
-  background-color: #FFFFFF;
   display: inline-block;
   border: 2px solid #212121;
   border-radius: 4px;
   margin-right: 8px;
-}
+  }
+
 .input-checkbox:checked + .icon-check-form{
   border-color: #2196F3;
   background-color: #2196F3;
   background-image: url(../images/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
-}
-.label-checkbox{
-  font-size: 14px;
-    line-height:1.71; 
-    letter-spacing: 0.03em;
-      color: #757575;
 }
 .form-link{
   font-size: 14px;
@@ -421,9 +419,16 @@ padding: 40px;
       color: #2196F3;
 }
 .form-checkbox{
-  margin-bottom: 30px;
-  display: inline-flex;
-    align-items: center;
+  margin-bottom: 30px;  
+}
+.label-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 .form-btn{
 font-weight: 700;
